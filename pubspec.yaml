@@ -1,0 +1,42 @@
+name: flutter_application_2
+description: "A new Flutter project."
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.4.3 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  firebase_core: ^1.21.1
+  google_sign_in: ^5.4.1
+  firebase_auth: ^3.7.0
+
+  cupertino_icons: ^1.0.2
+  google_fonts: ^3.0.1
+  webview_flutter: ^3.0.4
+  path_provider: ^2.0.11
+  flutter_launcher_icons: ^0.10.0
+  http: ^0.13.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/applogo.jpg"
+  min_sdk_android: 21
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/awards.png
+    - assets/wallet.png
+    - assets/applogo.jpg
